@@ -75,7 +75,11 @@ h5 {
 }
 
 .black>div:nth-last-child(1)>div>ul>li>div:nth-last-child(1) .result {
+<<<<<<< HEAD
   color: white !important;
+=======
+    color: white !important;
+>>>>>>> 8f299e88298a2462302ebf9852d2ca509e1a8a27
 }
 
 @media screen and (max-width: 550px) {
@@ -83,4 +87,8 @@ h5 {
   h4 {
     font-size: 1.8rem;
   }
+}
+
+.black>div:nth-last-child(1)>div>ul>li>div:nth-last-child(1) .result {
+  color: white !important;
 }
