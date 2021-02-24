@@ -3,7 +3,9 @@
 # BigMood 
   
 [![Build Status](https://travis-ci.com/espoldi/bigmood.svg?branch=main)](https://travis-ci.com/espoldi/bigmood)
-![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/espoldi/bigmood/latest/main) 
+<a href="https://img.shields.io/badge/express-v4.16.4-red?style=plastic"><img alt="Express used" src="https://img.shields.io/badge/express-v4.16.4-red?style=plastic"/></a>
+<a href="https://img.shields.io/badge/npm-sequelize-blue?style=plastic"><img alt="Sequelize" src="https://img.shields.io/badge/npm-sequelize-blue?style=plastic"/></a>
+<a href="https://img.shields.io/badge/npm-express--handlebars-blue?style=plastic"><img alt="npm package Express-handlebars" src="https://img.shields.io/badge/npm-express--handlebars-blue?style=plastic"/></a>
 [![GitHub license](https://img.shields.io/github/license/espoldi/bigmood)](https://github.com/espoldi/bigmood/blob/master/LICENSE) 
 
 </span>  
