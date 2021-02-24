@@ -283,7 +283,7 @@ $(document).ready(function () {
       case 4: moodAvgName = "sad";
         moodAvgIcon = "sentiment_dissatisfied";
         break;
-      default: moodAvgName = "breakdown";
+      case 5: moodAvgName = "breakdown";
         moodAvgIcon = "sentiment_very_dissatisfied";
       }
       $("#fav-mood").text(moodAvgIcon); // Display icon
