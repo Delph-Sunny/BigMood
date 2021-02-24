@@ -3,7 +3,7 @@
 # BigMood 
   
 [![Build Status](https://travis-ci.com/espoldi/bigmood.svg?branch=main)](https://travis-ci.com/espoldi/bigmood)
-![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/espoldi/bigmood/latest/main) 
+![npm](https://img.shields.io/github/sequelize/espoldi/bigmood)(https://www.npmjs.com/package/sequelize) 
 [![GitHub license](https://img.shields.io/github/license/espoldi/bigmood)](https://github.com/espoldi/bigmood/blob/master/LICENSE) 
 
 </span>  
