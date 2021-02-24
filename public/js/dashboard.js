@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 /* eslint-disable no-unused-vars */
 $(document).ready(function () {
   let userName;
@@ -203,7 +204,7 @@ $(document).ready(function () {
         case 6: saturdayTotal +=userMoods[i];
           saturdayCounter++;
           break;
-        default: sundayTotal +=userMoods[i]; // Case 0
+        case 0: sundayTotal +=userMoods[i]; // Case 0
           sundayCounter++;
           break;
         }
@@ -234,13 +235,12 @@ $(document).ready(function () {
 
       // Temporary hardcoded data for Yaxis
       let arrayY = [
-        "<i class=\"material-icons\"> </i>",
-        "<i class=\"material-icons\">sentiment_very_dissatisfied</i>",
-        "<i class=\"material-icons\">sentiment_dissatisfied</i>",
-        "<i class=\"material-icons\">sentiment_neutral</i>",
-        "<i class=\"material-icons\">sentiment_satisfied</i>",
-        "<i class=\"material-icons\">sentiment_very_satisfied</i>"
-
+        " ",
+        "breakdown",
+        "sad",
+        "neutral",
+        "happy",
+        "excited"
       ];
 
       drawChart(arrayX, arrayY, avgMood, color); // Draw the chart
